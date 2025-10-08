@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://secure-text-pro-backend-1.onrender.com/api';
+const API_BASE_URL = 'https://secure-text-pro-backend-1.onrender.com';
 
 const authScreen = document.getElementById('auth-screen');
 const mainScreen = document.getElementById('main-screen');
@@ -228,3 +228,4 @@ window.addEventListener('beforeunload', (e) => {
     }
     return null;
 });
+
